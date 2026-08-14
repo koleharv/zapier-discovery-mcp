@@ -1,0 +1,44 @@
+{
+  "name": "zapier-discovery-mcp",
+  "version": "0.1.0",
+  "mcpName": "io.github.arose26/zapier-discovery-mcp",
+  "description": "MCP server for automation discovery — search Zapier's app directory and surface popular Zap templates between apps, with one-click create links. Bring your own Partner API client_id.",
+  "type": "module",
+  "bin": {
+    "zapier-discovery-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "zapier",
+    "zap-templates",
+    "automation",
+    "integration",
+    "discovery",
+    "workflow",
+    "claude"
+  ],
+  "license": "MIT",
+  "author": "Kole Harvey",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0",
+    "@types/node": "^22.0.0"
+  }
+}
