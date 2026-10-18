@@ -6,7 +6,7 @@ An [MCP](https://modelcontextprotocol.io) server for **automation discovery**. [
 - *"Is there a Zapier integration for this tool?"* — search the 9,000+ app directory
 - *"Give me automation ideas for my CRM"* — templates ranked by actual usage, not hallucinated
 
-Sibling project: [zapier-dev-mcp](https://github.com/arose26/zapier-dev-mcp) for *building* Zapier integrations.
+Sibling project: [zapier-dev-mcp](https://github.com/koleharv/zapier-dev-mcp) for *building* Zapier integrations.
 
 ## Setup
 
